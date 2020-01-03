@@ -36,6 +36,30 @@ nav {
   height:300px;
   margin: 100px auto;
 }
+.kids img{
+  position:absolute;
+  max-width:8%;
+  height:auto;
+  left:400px;
+  top: 500px;
+  pointer-events:none
+}
+.kids2 img{
+  position:absolute;
+  max-width: 7%;
+  height:auto;
+  left: 1000px;
+  top: 500px;
+  pointer-events:none
+}
+.kids3 img{
+  position:absolute;
+  max-width: 7%;
+  height:auto;
+  left: 700px;
+  top: 500px;
+  pointer-events:none
+}
 .container .box
 {
   position:relative;
