@@ -17,8 +17,7 @@ body{
 }
 .banner img{
   position:absolute;
-  margin-top:1px;
-  margin-left:995px;
+  margin-left:1065px;
   max-width:35%;
   height:auto;
   pointer-events:none;
@@ -129,13 +128,14 @@ nav {
 .container .box .ourlocation h3{
   margin: 0 0 15px;
   padding: 0;
-  color: white;
+  color: black;
   font-size: 24px;
+  font-family: Courier;
 }
 .container .box .ourlocation p{
   margin: 0;
   padding: 0;
-  color: white;
+  color: black;
 }
 .container .box:nth-child(1) .address{
   background:#00BDFF;opacity:1;
@@ -177,15 +177,43 @@ nav {
 .container .box .Aboutme h3{
   margin: 0 0 15px;
   padding: 0;
-  color: white;
+  color: black;
   font-size: 24px;
   margin-right:40px;
+  font-family: Courier;
 }
 .container .box .Aboutme p{
   margin: 0;
   padding: 0;
-  color: white;
+  color: black;
   margin-right:40px;
+  font-family: Courier;
+}
+.welcomepage{
+  box-sizing: content-box;
+  margin-top: 200px;
+  margin-bottom:200px;
+}
+.welcomepage h1{
+  text-align:center;
+  font-family: Courier;
+  font-size: 30px;
+}
+
+.welcomepage .welcomesign{
+  margin-bottom: 50px;
+  top: 100px;
+}
+
+.welcomepage p{
+  text-align:center;
+  margin: 5px;
+  font-size: 24px;
+  font-family: Courier;
+  padding-left:60px;
+  padding-right:60px;
+  letter-spacing:2px;
+  line-height:1.5;
 }
 ul {
   margin-left:300px;
@@ -278,18 +306,21 @@ ul li a:hover{
   position: absolute;
   top: 0;
 }
-.dot{
-  cursor: pointer;
-  height:15px;
-  width:15px;
-  margin: 0 2px;
-  background-color:#bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.row:after{
+  content:"";
+  display: table;
+  clear:both;
 }
-.active, .dot:hover{
-  background-color: #717171;
+.column{
+  float:left;
+  width:16.66%;
+  left: 50px;
+}
+.cursor{
+  opacity:0.7;
+}
+.cursor:hover{
+  opacity:1;
 }
 .fade{
   -webkit-animation-name: fade;
