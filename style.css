@@ -23,7 +23,7 @@ nav {
 }
 .home h1{
   text-align:center;
-  font-family:courier;
+  font-family:sans-serif;
   padding-top:70px;
   padding-bottom: 70px;
 }
@@ -53,7 +53,7 @@ nav {
   grid-template-columns:repeat(3, 1fr);
   grid-column-gap:1em;
   grid-auto-rows: minmax(100px, auto);
-  margin-bottom:8%;
+  margin-bottom:5%;
 }
 .headshot{
   pointer-events: none;
@@ -66,25 +66,26 @@ nav {
   max-width:65%;
   height:auto;
   padding-top:5%;
+  padding-bottom:8%;
 }
 .headshot p{
   text-align: center;
-  font-family:courier;
+  font-family:sans-serif;
   font-size: 24px;
 }
 .basicinfo{
-  font-family:courier;
+  font-family:sans-serif;
   background-color: rgba(227, 227, 227, 0.3);
 }
 
 .infos{
-  font-family:courier;
+  font-family:sans-serif;
   margin-top:5%;
   line-height:2.8;
 }
 .Rhythm{
   text-align: center;
-  font-family:courier;
+  font-family:sans-serif;
   background-color: rgba(227, 227, 227, 0.3);
 }
 .Rhythm .Rhythmtitle p{
@@ -95,7 +96,7 @@ nav {
   font-size: 13.5px;
   line-height:1.9;
   padding-top:5%;
-  padding-left:17%;
+  padding-left:28%;
 }
 .scale{
 }
@@ -274,7 +275,7 @@ nav {
 }
 .aboutmepage h1{
   text-align:center;
-  font-family: Courier;
+  font-family: sans-serif;
   font-size: 30px;
 }
 
@@ -286,9 +287,9 @@ nav {
 .aboutmepage p{
   text-align:center;
   font-size:1.4vw;
-  font-family: Courier;
+  font-family: sans-serif;
   letter-spacing:2px;
-  line-height:2;
+  line-height:2.5;
 }
 ul {
   margin-left:300px;
@@ -321,13 +322,13 @@ ul li a:hover{
 .overall h3{
   text-align:center;
   font-size: 30px;
-  Font-family: Courier;
+  Font-family: sans-serif;
   margin-bottom:50px;
 }
 .overall p{
   text-align:center;
   font-size: 24px;
-  Font-family:Courier;
+  Font-family: sans-serif;
   margin-bottom:80px;
 }
 .myslides{
