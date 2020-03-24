@@ -76,6 +76,7 @@ nav {
   font-family:courier;
   background-color: rgba(227, 227, 227, 0.3);
 }
+
 .infos{
   font-family:courier;
   margin-top:5%;
@@ -85,6 +86,9 @@ nav {
   text-align: center;
   font-family:courier;
   background-color: rgba(227, 227, 227, 0.3);
+}
+.Rhythm .Rhythmtitle p{
+  font-size:20px;
 }
 .Rhythm .schedule{
   text-align:left;
