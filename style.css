@@ -3,62 +3,106 @@
   padding: 0;
 
 }
-
+head{
+  min-height:100px;
+}
 body{
   background-color: #eee;
+  margin-top: 3%;
 }
-.logo img{
+nav .logo img{
   position:absolute;
-  margin-top:1px;
-  margin-left:10px;
-  max-width:15%;
-  height:auto;
+  max-width: 20%;
+  height: auto;
   pointer-events: none;
-}
-.banner img{
-  position:absolute;
-  margin-left:1065px;
-  max-width:35%;
-  height:auto;
-  pointer-events:none;
 }
 nav {
   width:100%;
-  height:100px;
+  min-height:100px;
   background-color: white;
 }
+.home h1{
+  text-align:center;
+  font-family:courier;
+  padding-top:70px;
+  padding-bottom: 70px;
+}
+.wrapper2{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-column-gap:1em;
+  grid-auto-rows: minmax(100px,auto);
+  margin:0 auto;
+  width:90%;
+}
+.wrapper3{
+  margin:0 auto;
+  width: 90%;
+  padding-top:10%;
+}
+.home .wrapper .basicinfo{
+  text-align: center;
+}
 
-.container
+.home.wrapper .basicinfo .meals .fa{
+  font-size:80px;
+
+}
+.wrapper{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-column-gap:1em;
+  grid-auto-rows: minmax(100px, auto);
+  margin-bottom:8%;
+}
+.headshot{
+  pointer-events: none;
+  background-color: rgba(227, 227, 227, 0.3);
+}
+.headshot img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:65%;
+  height:auto;
+  padding-top:5%;
+}
+.headshot p{
+  text-align: center;
+  font-family:courier;
+}
+.basicinfo{
+  font-family:courier;
+  background-color: rgba(227, 227, 227, 0.3);
+}
+.infos{
+  font-family:courier;
+  margin-top:5%;
+  line-height:2.8;
+}
+.Rhythm{
+  text-align: center;
+  font-family:courier;
+  background-color: rgba(227, 227, 227, 0.3);
+}
+.Rhythm .schedule{
+  text-align:left;
+  font-size: 13.5px;
+  line-height:1.9;
+  padding-top:5%;
+  padding-left:17%;
+}
+.scale{
+}
+.container      /* This is where I need help with :) */
 {
   position:relative;
-  width:1200px;
-  height:300px;
-  margin: 100px auto;
-}
-.kids img{
-  position:absolute;
-  max-width:8%;
+  min-width:50%;
   height:auto;
-  left:400px;
-  top: 500px;
-  pointer-events:none
+  margin-left:6%;
+  margin-top:10%;
 }
-.kids2 img{
-  position:absolute;
-  max-width: 7%;
-  height:auto;
-  left: 1000px;
-  top: 500px;
-  pointer-events:none
-}
-.kids3 img{
-  position:absolute;
-  max-width: 7%;
-  height:auto;
-  left: 700px;
-  top: 500px;
-  pointer-events:none
-}
+
 .container .box
 {
   position:relative;
@@ -66,7 +110,7 @@ nav {
   height:calc(300px - 30px);
   background-color: black;
   float:left;
-  margin: 15px;
+  margin: 5%;
   box-sizing: border-box;
   overflow:hidden;
   border-radius: 15px;
@@ -131,11 +175,13 @@ nav {
   color: black;
   font-size: 24px;
   font-family: Courier;
+  margin-right:40px;
 }
 .container .box .ourlocation p{
   margin: 0;
   padding: 0;
   color: black;
+  margin-right:40px;
 }
 .container .box:nth-child(1) .address{
   background:#00BDFF;opacity:1;
@@ -189,31 +235,55 @@ nav {
   margin-right:40px;
   font-family: Courier;
 }
-.welcomepage{
-  box-sizing: content-box;
-  margin-top: 200px;
-  margin-bottom:200px;
+.kids img{
+  position:absolute;
+  max-width:8%;
+  height:auto;
+  left:400px;
+  top: 500px;
+  pointer-events:none
 }
-.welcomepage h1{
+.kids2 img{
+  position:absolute;
+  max-width: 7%;
+  height:auto;
+  left: 1000px;
+  top: 500px;
+  pointer-events:none
+}
+.kids3 img{
+  position:absolute;
+  max-width: 7%;
+  height:auto;
+  left: 700px;
+  top: 500px;
+  pointer-events:none
+}
+.aboutmepage{
+  position: relative;
+  box-sizing: content-box;
+  min-width: 50%;
+  padding-top: 12%;
+  padding-bottom: 10%;
+  padding-right:15%;
+}
+.aboutmepage h1{
   text-align:center;
   font-family: Courier;
   font-size: 30px;
 }
 
-.welcomepage .welcomesign{
+.aboutmepage .Thisisaboutme{
   margin-bottom: 50px;
   top: 100px;
 }
 
-.welcomepage p{
+.aboutmepage p{
   text-align:center;
-  margin: 5px;
-  font-size: 24px;
+  font-size:1.4vw;
   font-family: Courier;
-  padding-left:60px;
-  padding-right:60px;
   letter-spacing:2px;
-  line-height:1.5;
+  line-height:2;
 }
 ul {
   margin-left:300px;
@@ -242,6 +312,18 @@ ul li a:hover{
 .overall{
   box-sizing:border-box;
   overflow:hidden;
+}
+.overall h3{
+  text-align:center;
+  font-size: 30px;
+  Font-family: Courier;
+  margin-bottom:50px;
+}
+.overall p{
+  text-align:center;
+  font-size: 24px;
+  Font-family:Courier;
+  margin-bottom:80px;
 }
 .myslides{
   display:none;
@@ -337,4 +419,12 @@ ul li a:hover{
 @keyframes fade{
   from {opacity:.4}
   to {opacity: 1}
+}
+@viewport{
+  zoom:1.0;
+  width: extend-to-zoom;
+}
+@viewport{
+  width: extend-to-zoom;
+  zoom:1.0;
 }

@@ -2,48 +2,99 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1>
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="myScript.js"></script>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="jquery.localScroll/jquery.localScroll.js" type="text/javascript"></script>
+    <script src="javascrollto/jquery.scrollTo.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+       $('#nav').localScroll({duration:800});
+    });
+    </script>
   </head>
   <body>
-      <div class ="logo">
-        <a href ="#"><img src ="img/logo2.png"></a>
-      </div>
-      <div class ="banner">
-        <a href ="#"><img src ="img/banner2.png"></a>
-      </div>
-      <nav>
+      <nav id="nav">
+        <div class ="logo">
+          <a href ="#"><img src ="img/logo2.png"></a>
+        </div>
         <ul>
-        <li><a href="index.html">Homepage</a></li>
-        <li><a href="Facility.html">Facility</a></li>
-        <li><a href="aboutus.html">About Us</a></li>
-        <li><a href="ApplyNow.html">Apply Now</a></li>
+        <li><a href="#home">Homepage</a></li>
+        <li><a href="#Aboutus2">About Us</a></li>
+        <li><a href="#Ourfacility">Facility</a></li>
         </ul>
       </nav>
-      <div class="kids">
-        <img src="img/2.png">
+      <div class="home" id="home">
+        <h1><i class="fa fa-cube" aria-hidden="true"></i> Welcome <i class="fa fa-cube" aria-hidden="true"></i> </h1>
+        <div class="wrapper">
+          <div>
+            <div class="headshot">
+              <p> <i class="fa fa-id-badge" aria-hidden="true"></i> <u>Teacher Jenny</u> </p>
+              <a href ="#"><img src="img/JennyCrop.jpg"></a>
+            </div>
+          </div>
+          <div class= "Rhythm">
+            <p> <i class="fa fa-flag" aria-hidden="true"></i>
+              <u>Rhythm of the day</u>
+            </p>
+            <div class="schedule">
+            <p> 7:30am ---- Drop off & Play time </p>
+            <p> 8:30am ---- Breakfast </p>
+            <p> 9:00am ---- Circle Time </p>
+            <p> 9:30am ---- Group Learning & Activities </p>
+            <p>10:30am ---- Outdoor Play Time </p>
+            <p>11:30am ---- Lunch </P>
+            <p>12:15pm ---- Reading </p>
+            <p>12:30pm ---- Naps! </p>
+            <p> 2:30pm ---- Quiet Hour (for others to wake up) </P>
+            <p> 3:00pm ---- Snack </p>
+            <p> 3:30pm ---- Outdoor Play </p>
+            <p> 4:15pm ---- Story Time </p>
+            <p> 4:45pm ---- Knowledge Games (critical thinking) </p>
+            <p> 5:30pm ---- Pickup / Free time </p>
+          </div>
+        </div>
+        <div class= "basicinfo" >
+          <h> <i class="fa fa-info-circle" aria-hidden="true"></i> <u>Basic Information</u> </h>
+            <div class= "infos">
+              <p> <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                Monday-Friday
+              </p>
+              <p> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                7:30am - 6pm
+              </p>
+              <p> <i class="fa fa-cutlery" aria-hidden="true"></i>
+                Breakfast + Lunch
+              </p>
+              <p> <i class="fa fa-usd" aria-hidden="true"></i>
+                495-1650 per month
+              </p>
+              <p> <i class="fa fa-certificate" aria-hidden="true"></i> <u> Facility Number </u> </p>
+              <p> 414004642 </p>
+              <p> <u> Effective Date </u> </p>
+              <p> 12/11/2019 </p>
+            </div>
+        </div>
       </div>
-      <div class="kids2">
-        <img src="img/1.png">
-      </div>
-      <div class="kids3">
-        <img src="img/3.png">
-      </div>
-      <div class= "container">   <!-- boxes-->
+    </div>
+    <div class="wrapper2">
+      <div class="scale">
+      <div class= "container">   <!-- boxes with the random ass colors-->
         <div class="box">
           <div class="address"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
           <div class="ourlocation">
             <h3> Our location </h3>
-            <p> We are located at 144 E Hillsdale Blvd </p>
+            <p> We are located at <b> 144 E Hillsdale Blvd, San Mateo CA 94403</b>.</p>
           </div>
         </div>
         <div class="box">
           <div class="address"><i class="fa fa-envelope" aria-hidden="true"></i></div>
           <div class="ourlocation">
             <h3> Contact </h3>
-            <p> We are located at 144 E Hillsdale Blvd </p>
+            <p> Feel free to contact us at <b>Brightstardaycare144@gmail.com</b> and <b> 415-307-3838 </b>. </p>
           </div>
         </div>
         <div class="box">
@@ -54,47 +105,62 @@
           </div>
         </div>
       </div>
-      <div class="welcomepage">  <!-- welcome page -->
-        <h1 class="welcomesign"> Welcome </h1>
-        <p> Thank you for choosing us and entrusting us with your child. Bright Star Childcare is providing you with this handbook to inform you of our curriculum and school policies so you will know what to be expected of you as a parent and us as providers while your child is under our care.We are a newly established facility in the Hillsdale neighborhood. Our facility focuses on nurturing the future generation through educational programs and activities. Our care provider, Jenny, have 20 years of experiences working with children from well-established daycare facilities to private after school programs. Bright Star Childcare is a Mandarin, Cantonese and trilingual program for children ages 12 months to transitional kindergarten. In our program we mainly want each child to develop at their own phase. We will do this by designing lessons to suit their individual needs. Another goal of ours is to provide an environment that these children can call home. This will allow them to open themselves expressively in the comfort of the environment.
+    </div>
+       <!-- <div class="kids">     Hide this for now
+        <img src="img/2.png">
+      </div>
+      <div class="kids2">
+        <img src="img/1.png">
+      </div>
+      <div class="kids3">
+        <img src="img/3.png">
+      </div> -->
+      <div class="aboutmepage">  <!-- welcome page -->
+        <h1 class="Thisisaboutme" id="Aboutus2"> About Us </h1>
+        <p>  We are a newly established facility in the Hillsdale neighborhood. Our facility focuses on nurturing the future generation through educational programs and activities. Our care provider, Jenny, have 20 years of experiences working with children from well-established daycare facilities to private after school programs. Bright Star Childcare is a Mandarin, Cantonese and English daycare for children ages 12 months to transitional kindergarten. In our program we mainly want each child to develop at their own pace. We will do this by designing lessons to suit their individual needs. Another goal of ours is to provide an environment that these children can call home. This will allow them to open themselves expressively in the comfort of the environment.
         </p>
       </div>
-      <div class="overall">
+    </div>
+    <div class= "wrapper3">
+      <div class="overall" id="Ourfacility">
+        <h3> Our Facility <i class="fa fa-picture-o" aria-hidden="true"></i> </h3>
+        <p> Our Facility meets all the safety requirments!! We have a reading room filled with numerous books and an outdoor area for the kids to have fun.
+          Feel free to click on any of the photos :) </p>
         <div class="slideshow">
           <div class="myslides fade">
             <div class="Identification">1/6</div>
             <img src="img/img1.jpg" style="width:100%; border-radius:25px;">
-            <div Class="text">Caption Text</div>
+            <div Class="text">playroom</div>
           </div>
 
           <div class="myslides fade">
             <div class="Identification">2/6</div>
             <img src="img/img2.jpg" style="width:100%; border-radius:25px;">
-            <div Class="text">Caption Text</div>
+            <div Class="text">Main hall</div>
           </div>
 
           <div class="myslides fade">
             <div class="Identification">3/6</div>
             <img src="img/img3.JPG" style="width:100%; border-radius:25px;">
-            <div Class="text">Caption Text</div>
+            <div Class="text">Main hall</div>
           </div>
 
           <div class="myslides fade">
             <div class="Identification">4/6</div>
             <img src="img/img4.JPG" style="width:100%; border-radius:25px;">
-            <div Class="text">Caption Text</div>
+            <div Class="text">Storage</div>
           </div>
 
           <div class="myslides fade">
             <div class="Identification">5/6</div>
             <img src="img/img5.JPG" style="width:100%;border-radius:25px;">
-            <div Class="text">Caption Text</div>
+            <div Class="text">Outside Area</div>
           </div>
 
           <div class="myslides fade">
             <div class="Identification">6/6</div>
             <img src="img/img6.JPG" style="width:100%;border-radius:25px;">
-            <div Class="text">Caption Text</div>
+            <div Class="text">Outside Area</div>
           </div>
 
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -122,6 +188,7 @@
          <img class="cursor action" src="img/img6.JPG" style="width:100%" onclick="currentSlide(6)" >
        </div>
       </div>
+    </div>
     </header>
     <main>
 
