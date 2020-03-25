@@ -152,7 +152,9 @@ ul li a:hover{
 .infos{
   font-family:sans-serif;
   margin-top:5%;
-  line-height:2.8;
+  line-height:3;
+  text-align: left;
+  padding-left: 30%;
 }
 .Rhythm{
   text-align: center;
@@ -165,7 +167,7 @@ ul li a:hover{
 .Rhythm .schedule{
   text-align:left;
   font-size: 15px;
-  line-height:1.9;
+  line-height:2.1;
   padding-top:5%;
   padding-left:28%;
 }
@@ -251,7 +253,7 @@ ul li a:hover{
   padding: 0;
   color: black;
   font-size: 24px;
-  font-family: Courier;
+  font-family: sans-serif;
   margin-right:40px;
 }
 .container .box .ourlocation p{
@@ -303,14 +305,14 @@ ul li a:hover{
   color: black;
   font-size: 24px;
   margin-right:40px;
-  font-family: Courier;
+  font-family: sans-serif;
 }
 .container .box .Aboutme p{
   margin: 0;
   padding: 0;
   color: black;
   margin-right:40px;
-  font-family: Courier;
+  font-family: sans-serif;
 }
 .kids img{
   position:absolute;
