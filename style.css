@@ -8,24 +8,63 @@ head{
 }
 body{
   background-color: #eee;
-  margin-top: 3%;
-}
-nav .logo img{
-  position:absolute;
-  max-width: 20%;
-  height: auto;
-  pointer-events: none;
 }
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
   width:100%;
-  min-height:100px;
+  height:100px;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  transition: .5s;
   background-color: white;
+  z-index: 10000;
 }
+nav .logo{
+  float: left;
+}
+nav .logo img{
+  height:90px;
+  transition: .5s;
+  pointer-events:none;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  display:flex;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 100px;
+}
+
+nav ul li a {
+  line-height: 80px;
+  display:block;
+  text-decoration: none;
+  text-transform: Uppercase;
+  transition: 0.5s;
+  font-size: 14px;
+  font-family: "roboto", sans-serif;
+  color: #1e1e1e;
+  padding: 5px 20px;
+}
+
+ul li a:hover{
+  color:grey;
+}
+
 .home h1{
   text-align:center;
   font-family:sans-serif;
   padding-top:70px;
   padding-bottom: 70px;
+  margin-top: 90px;
 }
 .wrapper2{
   display:grid;
@@ -55,6 +94,38 @@ nav {
   grid-auto-rows: minmax(100px, auto);
   margin-bottom:5%;
 }
+.wrapper4{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
+  margin-bottom:5%;
+  margin:0 auto;
+  width: 81%;
+}
+.wrapper4 .holidays{
+  padding-left: 6%;
+  line-height: 3;
+  background-color: #00BDFF;opacity:0.8;
+  border-radius: 15px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: sans-serif;
+}
+.wrapper4 .holidays p{
+  font-size: 15px;
+}
+.wrapper4 .holidays h3{
+  font-size: 17px;
+}
+.wrapper4 .review{
+  background-color: #FF2400;opacity:0.8;
+  border-radius: 15px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: sans-serif;
+  padding-right: 6%;
+}
 .headshot{
   pointer-events: none;
   background-color: rgba(227, 227, 227, 0.3);
@@ -63,7 +134,7 @@ nav {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  max-width:65%;
+  max-width:50%;
   height:auto;
   padding-top:5%;
   padding-bottom:8%;
@@ -291,28 +362,12 @@ nav {
   letter-spacing:2px;
   line-height:2.5;
 }
-ul {
-  margin-left:300px;
-}
 
-ul li {
-  list-style: none;
-  display: inline-block;
-  float: left;
-  line-height: 100px;
-}
-
-ul li a {
-  display:block;
-  text-decoration: none;
-  font-size: 14px;
-  font-family: arial;
-  color: #1e1e1e;
-  padding: 0 20px;
-}
-
-ul li a:hover{
-  color:grey;
+.address .ourlocation .holidays {
+  text-align: left;
+  Font-family: 'Gotu', sans-serif;
+  Font-size: 10px;
+  line-height: 2;
 }
 
 .overall{
