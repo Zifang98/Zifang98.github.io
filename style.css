@@ -261,6 +261,7 @@ ul li a:hover{
   padding: 0;
   color: black;
   margin-right:40px;
+  font-family: sans-serif;
 }
 .container .box:nth-child(1) .address{
   background:#00BDFF;opacity:1;
