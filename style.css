@@ -105,7 +105,7 @@ ul li a:hover{
 }
 .wrapper4 .holidays{
   padding-left: 15%;
-  line-height: 3;
+  line-height: 2.5;
   background-color: #00BDFF;opacity:0.8;
   border-radius: 15px;
   padding-top: 5%;
@@ -115,6 +115,7 @@ ul li a:hover{
 .wrapper4 .holidays .holidaytext p{
   font-size: 15px;
   font-family: sans-serif;
+  padding-top: 8%;
 }
 .wrapper4 .holidays p{
   font-size: 17px;
