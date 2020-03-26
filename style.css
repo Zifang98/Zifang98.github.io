@@ -61,7 +61,7 @@ ul li a:hover{
 
 .home h1{
   text-align:center;
-  font-family:sans-serif;
+  font-family:'Merriweather', serif;
   padding-top:70px;
   padding-bottom: 70px;
   margin-top: 90px;
@@ -112,11 +112,13 @@ ul li a:hover{
   padding-bottom: 5%;
   font-family: sans-serif;
 }
-.wrapper4 .holidays p{
+.wrapper4 .holidays .holidaytext p{
   font-size: 15px;
+  font-family: sans-serif;
 }
-.wrapper4 .holidays h3{
+.wrapper4 .holidays p{
   font-size: 17px;
+  font-family: 'Merriweather', serif;
 }
 .wrapper4 .review{
   background-color: #FF2400;opacity:0.8;
@@ -129,6 +131,7 @@ ul li a:hover{
 .headshot{
   pointer-events: none;
   background-color: rgba(227, 227, 227, 0.3);
+  font-family:'Merriweather', serif;
 }
 .headshot img{
   display:block;
@@ -141,28 +144,30 @@ ul li a:hover{
 }
 .headshot p{
   text-align: center;
-  font-family:sans-serif;
+  font-family:'Merriweather', serif;
   font-size: 24px;
 }
 .basicinfo{
-  font-family:sans-serif;
+  font-family:'Merriweather', serif;
   background-color: rgba(227, 227, 227, 0.3);
+  font-size: 24px;
 }
 
-.infos{
+.basicinfo .infos{
   font-family:sans-serif;
   margin-top:5%;
   line-height:3;
   text-align: left;
   padding-left: 30%;
+  font-size: 16px;
 }
 .Rhythm{
   text-align: center;
-  font-family:sans-serif;
   background-color: rgba(227, 227, 227, 0.3);
 }
 .Rhythm .Rhythmtitle p{
-  font-size:20px;
+  font-size:24px;
+  font-family:'Merriweather', serif;
 }
 .Rhythm .schedule{
   text-align:left;
@@ -170,6 +175,7 @@ ul li a:hover{
   line-height:2.1;
   padding-top:5%;
   padding-left:28%;
+  font-family:sans-serif;
 }
 .scale{
 }
@@ -306,7 +312,7 @@ ul li a:hover{
   color: black;
   font-size: 24px;
   margin-right:40px;
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;;
 }
 .container .box .Aboutme p{
   margin: 0;
@@ -349,7 +355,7 @@ ul li a:hover{
 }
 .aboutmepage h1{
   text-align:center;
-  font-family: sans-serif;
+  font-family:'Merriweather', serif;;
   font-size: 30px;
 }
 
@@ -357,34 +363,18 @@ ul li a:hover{
   margin-bottom: 50px;
   top: 100px;
 }
-.iframe-rwd  {
-position: relative;
-padding-bottom: 65.25%;
-padding-top: 30px;
-height: 0;
-overflow: hidden;
+.review p{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  padding: 5%;
 }
-.iframe-rwd iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
-
 .aboutmepage p{
   text-align:center;
   font-size:1.4vw;
   font-family: sans-serif;
   letter-spacing:2px;
   line-height:2.5;
-}
-
-.address .ourlocation .holidays {
-  text-align: left;
-  Font-family: 'Gotu', sans-serif;
-  Font-size: 10px;
-  line-height: 2;
 }
 
 .overall{
@@ -394,7 +384,7 @@ height: 100%;
 .overall h3{
   text-align:center;
   font-size: 30px;
-  Font-family: sans-serif;
+  Font-family: 'Merriweather', serif;
   margin-bottom:50px;
 }
 .overall p{
