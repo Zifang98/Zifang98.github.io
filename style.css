@@ -502,17 +502,30 @@ ul li a:hover{
   }
   nav .logo{
     text-align:center;
-    padding-left: 25px;
+  }
+  .headshot .langsup p{
+    font-size: 18px;
+  }
+  .headshot img{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width:65%;
   }
   .basicinfo .infos{
-    font-size:12px;
+    font-size:14px;
     line-height:1.5;
+    padding-left:20%;
   }
   .container{
     display:none;
   }
   .aboutmepage{
     width:100%;
+  }
+  .aboutmepage p{
+    font-size:18px;
+    letter-spacing:1px;
+    line-height:1.5;
   }
   .wrapper4 .holidays{
     display:none;
@@ -526,12 +539,15 @@ ul li a:hover{
     padding:0;
   }
   .wrapper4 .iframe-rwd iframe{
-    width: 380px;
+    width: 360px;
     height: auto;
   }
   .wrapper4 .review iframe{
-    width:380px;
-    height: auto;
+    width:350px;
+    height: 450px;
+  }
+  .wrapper4 .review p{
+    display: none;
   }
   .wrapper{
       grid-template-columns:repeat(2,1fr);
