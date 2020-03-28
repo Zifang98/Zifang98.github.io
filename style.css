@@ -178,8 +178,6 @@ ul li a:hover{
   padding-left:28%;
   font-family:sans-serif;
 }
-.scale{
-}
 .container      /* This is where I need help with :) */
 {
   position:relative;
@@ -502,8 +500,20 @@ ul li a:hover{
   .container{
     display:none;
   }
+  .aboutmepage{
+    width:100%;
+  }
   .wrapper4 .holidays{
     display:none;
+  }
+  .wrapper3{
+    width:100%;
+  }
+  .wrapper4 .iframe-rwd{
+    width:50%;
+  }
+  .wrapper4 .review{
+    width:50%;
   }
   .Rhythm{
     display:none;
