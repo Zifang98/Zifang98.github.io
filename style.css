@@ -372,7 +372,7 @@ ul li a:hover{
 }
 .aboutmepage p{
   text-align:center;
-  font-size:1.4vw;
+  font-size:21.5px;
   font-family: sans-serif;
   letter-spacing:2px;
   line-height:2.5;
@@ -498,11 +498,11 @@ ul li a:hover{
   zoom:1.0;
 }
 
-@media (max-width: 700px){
+@media only screen and (max-width:768px){
   .container{
-    display:hidden;
+    display:none;
   }
   .wrapper4 .holiday{
-    display:hidden;
+    display:none;
   }
 }
