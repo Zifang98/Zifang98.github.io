@@ -497,7 +497,7 @@ ul li a:hover{
 }
 
 @media only screen and (max-width:768px){
-  nav{
+  nav .links{
     display:none;
   }
   .container{
