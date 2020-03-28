@@ -502,6 +502,7 @@ ul li a:hover{
   }
   nav .logo{
     text-align:center;
+    padding-left: 25px;
   }
   .basicinfo .infos{
     font-size:12px;
@@ -540,5 +541,8 @@ ul li a:hover{
   }
   .Rhythm{
     display:none;
+  }
+  .slideshow{
+    max-width:100%;
   }
 }
