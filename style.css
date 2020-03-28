@@ -499,10 +499,10 @@ ul li a:hover{
 }
 
 @media (max-width: 700px){
-  .container{
+  #container{
     display:hidden;
   }
-  .wrapper4 .holiday{
+  #wrapper4 #holiday{
     display:hidden;
   }
 }
