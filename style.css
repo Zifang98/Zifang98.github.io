@@ -507,10 +507,11 @@ ul li a:hover{
     display:none;
   }
   .wrapper3{
+    display:block;
     width:100%;
   }
   .wrapper4{
-    grid-template-columns:repeat(2,1fr);
+    display:block;
   }
   .wrapper{
       grid-template-columns:repeat(2,1fr);
