@@ -497,6 +497,9 @@ ul li a:hover{
 }
 
 @media only screen and (max-width:768px){
+  nav{
+    display:none;
+  }
   .container{
     display:none;
   }
@@ -512,6 +515,7 @@ ul li a:hover{
   }
   .wrapper4{
     display:block;
+    padding:0;
   }
   .wrapper{
       grid-template-columns:repeat(2,1fr);
