@@ -497,3 +497,12 @@ ul li a:hover{
   width: extend-to-zoom;
   zoom:1.0;
 }
+
+@media (max-width: 700px){
+  .container{
+    display:hidden;
+  }
+  .wrapper4 .holiday{
+    display:hidden;
+  }
+}
