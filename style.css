@@ -509,11 +509,14 @@ ul li a:hover{
   .wrapper3{
     width:100%;
   }
-  .wrapper4 .iframe-rwd{
-    width:50%;
+  .wrapper4{
+    grid-template-columns:repeat(2,1fr);
   }
-  .wrapper4 .review{
-    width:50%;
+  .wrapper{
+      grid-template-columns:repeat(2,1fr);
+  }
+  .wrapper2{
+    display:block;
   }
   .Rhythm{
     display:none;
