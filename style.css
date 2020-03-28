@@ -503,7 +503,7 @@ ul li a:hover{
   nav .logo{
     text-align:center;
   }
-  .basicinfo{
+  .basicinfo .infos{
     font-size:12px;
     line-height:1.5;
   }
@@ -523,6 +523,14 @@ ul li a:hover{
   .wrapper4{
     display:block;
     padding:0;
+  }
+  .wrapper4 .iframe-rwd iframe{
+    width: 30%;
+    height: auto;
+  }
+  .wrapper4 .review iframe{
+    width:30%;
+    height: auto;
   }
   .wrapper{
       grid-template-columns:repeat(2,1fr);
