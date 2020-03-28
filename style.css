@@ -502,7 +502,10 @@ ul li a:hover{
   .container{
     display:none;
   }
-  .wrapper4 .holiday{
+  .wrapper4 .holidays{
+    display:none;
+  }
+  .Rhythm{
     display:none;
   }
 }
