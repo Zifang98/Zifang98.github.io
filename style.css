@@ -540,12 +540,13 @@ ul li a:hover{
     width:100%;
   }
   .wrapper4 .iframe-rwd iframe{
-    width: 380px;
+    width: 400px;
     height: auto;
   }
   .wrapper4 .review iframe{
     width:380px;
     height: 450px;
+    padding-right:0;
   }
   .wrapper4 .review p{
     display: none;
