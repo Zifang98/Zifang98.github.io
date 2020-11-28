@@ -547,7 +547,7 @@ ul li a:hover{
     width:380px;
     height: 450px;
     padding-right:0;
-    padding-left:5px;
+    padding-left: 10px;
   }
   .wrapper4 .review p{
     display: none;
