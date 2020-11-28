@@ -498,34 +498,37 @@ ul li a:hover{
 
 @media only screen and (max-width:360px){
   nav .links{
-    display:none;
+    display: none;
   }
   nav .logo{
-    text-align:center;
+    text-align: center;
+  }
+  .wrapper{
+    display: block;
   }
   .headshot .langsup p{
-    font-size: 18px;
+    display: none;
   }
   .headshot img{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    max-width:65%;
+    display: none;
   }
   .basicinfo .infos{
-    font-size:14px;
-    line-height:1.5;
-    padding-left:20%;
+    font-size: 10%;
+    line-height:3;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 20%;
   }
   .container{
     display:none;
   }
   .aboutmepage{
-    width:100%;
+    width:90%;
   }
   .aboutmepage p{
-    font-size:18px;
+    font-size:14px;
     letter-spacing:1px;
-    line-height:1.5;
+    line-height:2;
   }
   .wrapper4 .holidays{
     display:none;
@@ -540,11 +543,11 @@ ul li a:hover{
     width:100%;
   }
   .wrapper4 .iframe-rwd iframe{
-    width: 360px;
+    width: 100%;
     height: auto;
   }
   .wrapper4 .review iframe{
-    width: 360px;
+    width:100%;
     height: 450px;
     padding-right:0;
     padding-left: 0;
@@ -562,7 +565,7 @@ ul li a:hover{
     display:none;
   }
   .slideshow{
-    max-width:100%;
+    max-width:90%;
   }
 }
 
@@ -571,31 +574,34 @@ ul li a:hover{
     display:none;
   }
   nav .logo{
-    text-align:center;
+    text-align: center;
+  }
+  .wrapper{
+    display: block;
   }
   .headshot .langsup p{
-    font-size: 18px;
+    display: none;
   }
   .headshot img{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    max-width:65%;
+    display: none;
   }
   .basicinfo .infos{
-    font-size:14px;
-    line-height:1.5;
-    padding-left:20%;
+    font-size: 10%;
+    line-height:3;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 20%;
   }
   .container{
     display:none;
   }
   .aboutmepage{
-    width:100%;
+    width:90%;
   }
   .aboutmepage p{
-    font-size:18px;
+    font-size:14px;
     letter-spacing:1px;
-    line-height:1.5;
+    line-height:2;
   }
   .wrapper4 .holidays{
     display:none;
@@ -614,7 +620,7 @@ ul li a:hover{
     height: auto;
   }
   .wrapper4 .review iframe{
-    width: 100%;
+    width:100%;
     height: 450px;
     padding-right:0;
     padding-left: 0;
@@ -632,7 +638,7 @@ ul li a:hover{
     display:none;
   }
   .slideshow{
-    max-width:100%;
+    max-width:90%;
   }
 }
 
@@ -641,31 +647,36 @@ ul li a:hover{
     display:none;
   }
   nav .logo{
-    text-align:center;
+    padding-left: 28%;
+  }
+  .wrapper{
+    display: block;
   }
   .headshot .langsup p{
-    font-size: 18px;
+    display: none;
   }
   .headshot img{
     padding-top: 5%;
     padding-bottom: 5%;
-    max-width:65%;
+    max-width:55%;
   }
   .basicinfo .infos{
-    font-size:14px;
-    line-height:1.5;
-    padding-left:20%;
+    font-size: 10%;
+    line-height:3;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 20%;
   }
   .container{
     display:none;
   }
   .aboutmepage{
-    width:100%;
+    width:90%;
   }
   .aboutmepage p{
-    font-size:18px;
+    font-size:14px;
     letter-spacing:1px;
-    line-height:1.5;
+    line-height:2;
   }
   .wrapper4 .holidays{
     display:none;
@@ -702,15 +713,13 @@ ul li a:hover{
     display:none;
   }
   .slideshow{
-    max-width:100%;
+    max-width:90%;
   }
 }
+
 @media only screen and (max-width:960px){
-  nav .links{
-    display:none;
-  }
   nav .logo{
-    text-align:center;
+    text-align: center;
   }
   .headshot .langsup p{
     font-size: 18px;
@@ -741,12 +750,12 @@ ul li a:hover{
   }
   .wrapper3{
     display:block;
-    width:100%;
+    width: 90%;
   }
   .wrapper4{
     display:block;
     padding:0;
-    width:100%;
+    width: 90%;
   }
   .wrapper4 .iframe-rwd iframe{
     width: 100%;
@@ -771,6 +780,79 @@ ul li a:hover{
     display:none;
   }
   .slideshow{
-    max-width:100%;
+    max-width:90%;
+  }
+}
+
+@media only screen and (max-width:1200px){
+
+  nav .logo{
+    text-align: center;
+  }
+  .headshot .langsup p{
+    font-size: 15px;
+  }
+  .headshot img{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width:45%;
+  }
+  .basicinfo .infos{
+    font-size: 20px;
+    line-height:1.5;
+    padding-left:20%;
+  }
+  .container{
+    display:none;
+  }
+  .aboutmepage{
+    width:90%;
+  }
+
+  .aboutmepage h1{
+    padding-left: 10%;
+  }
+  .aboutmepage p{
+    font-size:18px;
+    letter-spacing:1px;
+    line-height:3;
+    padding-left: 10%;
+  }
+  .wrapper4 .holidays{
+    display:none;
+  }
+  .wrapper3{
+    display:block;
+    width:90%;
+  }
+  .wrapper4{
+    display:block;
+    padding:0;
+    width:90%;
+  }
+  .wrapper4 .iframe-rwd iframe{
+    width: 100%;
+    height: auto;
+  }
+  .wrapper4 .review iframe{
+    width: 100%;
+    height: 450px;
+    padding-right:0;
+    padding-left: 0;
+  }
+  .wrapper4 .review p{
+    display: none;
+  }
+  .wrapper{
+      grid-template-columns:repeat(2,1fr);
+  }
+  .wrapper2{
+    display:block;
+  }
+  .Rhythm{
+    display:none;
+  }
+  .slideshow{
+    max-width: 90%;
   }
 }
