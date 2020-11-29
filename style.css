@@ -500,11 +500,15 @@ ul li a:hover{
   nav .links{
     display: none;
   }
-  nav .logo img{
-    text-align: left;
-    padding-right: 80px;
-    margin-right: 80px;
+  nav {
+    position: fixed;
+    width:90%;
   }
+
+  nav .logo{
+    float: center;
+  }
+
   .wrapper{
     display: block;
   }
@@ -577,10 +581,12 @@ ul li a:hover{
   nav .links{
     display:none;
   }
-  nav .logo img{
-      text-align: left;
-      padding-right: 80px;
-      margin-right: 80px;
+  nav {
+    position: fixed;
+    width:90%;
+  }
+  nav .logo{
+    float: center;
   }
   .wrapper{
     display: block;
