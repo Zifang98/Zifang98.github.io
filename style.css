@@ -500,9 +500,7 @@ ul li a:hover{
   nav .links{
     display: none;
   }
-  nav .logo{
-    text-align: left;
-  }
+  
   .wrapper{
     display: block;
   }
@@ -575,9 +573,7 @@ ul li a:hover{
   nav .links{
     display:none;
   }
-  nav .logo{
-      text-align: left;
-  }
+
   .wrapper{
     display: block;
   }
