@@ -502,11 +502,11 @@ ul li a:hover{
   }
   nav {
     position: fixed;
-    width:90%;
+    width:100%;
   }
 
   nav .logo{
-    float: center;
+    float: left;
   }
 
   .wrapper{
@@ -583,10 +583,10 @@ ul li a:hover{
   }
   nav {
     position: fixed;
-    width:90%;
+    width:100%;
   }
   nav .logo{
-    float: center;
+    float: left;
   }
   .wrapper{
     display: block;
