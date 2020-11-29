@@ -502,6 +502,7 @@ ul li a:hover{
   }
   nav .logo img{
     text-align: left;
+    padding-right: 80px;
   }
   .wrapper{
     display: block;
@@ -577,6 +578,7 @@ ul li a:hover{
   }
   nav .logo img{
       text-align: left;
+      padding-right: 80px;
   }
   .wrapper{
     display: block;
