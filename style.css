@@ -568,7 +568,15 @@ ul li a:hover{
   .wrapper4 .review p{
     display: none;
   }
-  .wrapper5 img{
+  .wrapper5 .kids img{
+    width: 30%;
+    height: auto;
+  }
+  .wrapper5 .kids2 img{
+    width: 30%;
+    height: auto;
+  }
+  .wrapper5 .kids3 img{
     width: 30%;
     height: auto;
   }
@@ -650,7 +658,15 @@ ul li a:hover{
   .wrapper4 .review p{
     display: none;
   }
-  .wrapper5 img{
+  .wrapper5 .kids img{
+    width: 30%;
+    height: auto;
+  }
+  .wrapper5 .kids2 img{
+    width: 30%;
+    height: auto;
+  }
+  .wrapper5 .kids3 img{
     width: 30%;
     height: auto;
   }
@@ -729,7 +745,15 @@ ul li a:hover{
   .wrapper4 .review p{
     display: none;
   }
-  .wrapper5 img{
+  .wrapper5 .kids img{
+    width: 30%;
+    height: auto;
+  }
+  .wrapper5 .kids2 img{
+    width: 30%;
+    height: auto;
+  }
+  .wrapper5 .kids3 img{
     width: 30%;
     height: auto;
   }
