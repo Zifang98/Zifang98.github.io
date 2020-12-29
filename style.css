@@ -134,7 +134,7 @@ ul li a:hover{
   display: flex;
   padding-top: 8%;
   width: 81%;
-  height: auto;
+  height: 100px;
   padding-left: 20%;
   pointer-events: none;
 }
@@ -206,7 +206,7 @@ ul li a:hover{
   padding-left:28%;
   font-family:sans-serif;
 }
-.container      /* This is where I need help with :) */
+.container
 {
   position:relative;
   min-width:50%;
