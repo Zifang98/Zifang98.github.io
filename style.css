@@ -731,7 +731,7 @@ ul li a:hover{
 }
 
 @media only screen and (max-width:960px){
-  nav .logo{
+  nav .logo img{
     text-align: center;
   }
   .headshot .langsup p{
