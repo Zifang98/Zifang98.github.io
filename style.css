@@ -568,6 +568,9 @@ ul li a:hover{
   .wrapper4 .review p{
     display: none;
   }
+  .wrapper5 {
+    padding-left: 10%;
+  }
   .wrapper5 .kids img{
     width: 50%;
     height: auto;
@@ -658,6 +661,9 @@ ul li a:hover{
   .wrapper4 .review p{
     display: none;
   }
+  .wrapper5 {
+    padding-left: 10%;
+  }
   .wrapper5 .kids img{
     width: 50%;
     height: auto;
@@ -745,6 +751,9 @@ ul li a:hover{
   .wrapper4 .review p{
     display: none;
   }
+  .wrapper5 {
+    padding-left: 10%;
+  }
   .wrapper5 .kids img{
     width: 50%;
     height: auto;
@@ -823,6 +832,21 @@ ul li a:hover{
   }
   .wrapper4 .review p{
     display: none;
+  }
+  .wrapper5 {
+    padding-left: 10%;
+  }
+  .wrapper5 .kids img{
+    width: 50%;
+    height: auto;
+  }
+  .wrapper5 .kids2 img{
+    width: 50%;
+    height: auto;
+  }
+  .wrapper5 .kids3 img{
+    width: 50%;
+    height: auto;
   }
   .wrapper{
       grid-template-columns:repeat(2,1fr);
