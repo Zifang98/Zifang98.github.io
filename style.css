@@ -659,8 +659,8 @@ ul li a:hover{
   nav .links{
     display:none;
   }
-  nav .logo{
-    padding-left: 28%;
+  nav .logo img{
+    text-align: center;
   }
   .wrapper{
     display: block;
