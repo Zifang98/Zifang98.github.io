@@ -568,6 +568,10 @@ ul li a:hover{
   .wrapper4 .review p{
     display: none;
   }
+  .wrapper5 img{
+    width: 30%;
+    height: auto;
+  }
   .wrapper{
       grid-template-columns:repeat(2,1fr);
   }
@@ -646,6 +650,10 @@ ul li a:hover{
   .wrapper4 .review p{
     display: none;
   }
+  .wrapper5 img{
+    width: 30%;
+    height: auto;
+  }
   .wrapper{
       grid-template-columns:repeat(2,1fr);
   }
@@ -720,6 +728,10 @@ ul li a:hover{
   }
   .wrapper4 .review p{
     display: none;
+  }
+  .wrapper5 img{
+    width: 30%;
+    height: auto;
   }
   .wrapper{
       grid-template-columns:repeat(2,1fr);
