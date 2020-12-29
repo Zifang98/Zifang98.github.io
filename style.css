@@ -586,7 +586,7 @@ ul li a:hover{
     width:100%;
   }
   nav .logo{
-    float: left;
+    text-align: center;
   }
   .wrapper{
     display: block;
