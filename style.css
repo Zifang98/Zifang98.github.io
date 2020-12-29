@@ -510,8 +510,8 @@ ul li a:hover{
     width:100%;
   }
 
-  nav .logo{
-    float: left;
+  nav .logo img{
+    text-align: center;
   }
 
   .wrapper{
