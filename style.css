@@ -582,10 +582,9 @@ ul li a:hover{
     display:none;
   }
   nav {
-    position: fixed;
     width:100%;
   }
-  nav .logo{
+  nav .logo img{
     text-align: center;
   }
   .wrapper{
