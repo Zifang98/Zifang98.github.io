@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+head{
+  min-height:100px;
+}
+body{
+  background-color: #eee;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:10vh;
+  padding: 1vh 1.2vh;
+  box-sizing: border-box;
+  transition: .5s;
+  background-color: white;
+  z-index: 10000;
+}
+nav .logo{
+  float: left;
+}
+nav .logo img{
+  height:11vh;
+  transition: .5s;
+  pointer-events:none;
+}
+
+nav ul {
+  float: right;}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 10vh;
+}
+
+nav ul li a {
+  line-height: 8vh;
+  display:block;
+  text-decoration: none;
+  text-transform: Uppercase;
+  transition: 0.5s;
+  font-size: 2.3vh;
+  font-family: "roboto", sans-serif;
+  color: #1e1e1e;
+  padding: 1.2vh 2.3vh;
+}
+
+ul li a:hover{
+  color:grey;
+}
+.background{
+  background: url("img/5946083.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.Policies{
+  position: relative;
+  box-sizing: content-box;
+  margin-top: 7vh;
+  padding-bottom: 2.3vh;
+  Font-family: 'Merriweather', serif;
+}
+.Policies h1{
+  text-align:center;
+  font-size: 4vh;
+  padding-top:4%;
+}
+.Policies h2{
+  text-align: center;
+  font-size: 3vh;
+  Padding-top:2%;
+  padding-bottom:2%;
+}
+.policies .foodtitle1{
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+.policies .foodtitle1 h2{
+  text-align: center;
+  font-size: 3vh;
+}
+.box1{
+  display:grid;
+  grid-column-gap:1em;
+  margin:0 auto;
+  width: 90%;
+  text-align:left;
+  font-size: 2.3vh;
+}
+.policies .foodtitle2{
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+.policies .foodtitle2 h2{
+  text-align: center;
+  font-size: 3vh;
+}
+.box2{
+  display:grid;
+  grid-column-gap:1em;
+  margin:0 auto;
+  width: 90%;
+  text-align:left;
+  font-size: 2.3vh;
+}
+.policies .foodtitle3{
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+.policies .foodtitle3 h2{
+  text-align: center;
+  font-size: 3vh;
+}
+.box3{
+  display:grid;
+  grid-column-gap:1em;
+  margin:0 auto;
+  width: 90%;
+  text-align:left;
+  font-size: 2.3vh;
+}
+.Physical .Phytitle1{
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+.Physical .Phytitle1 h2{
+  text-align: center;
+  font-size: 3vh;
+}
+.Physical .Phytitle2{
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+.Physical .Phytitle2 h2{
+  text-align: center;
+  font-size: 3vh;
+}
+.Physical .Phytitle3{
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+.Physical .Phytitle3 h2{
+  text-align: center;
+  font-size: 3vh;
+}
+.Physical h1{
+  text-align:center;
+  font-size: 4vh;
+  padding-top:4%;
+}
+.Physical h2{
+  text-align: center;
+  font-size: 3vh;
+  Padding-top:2%;
+  padding-bottom:2%;
+}
+.Physical{
+  background-image: url("img/628241.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
