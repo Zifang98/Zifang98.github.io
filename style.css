@@ -27,7 +27,7 @@ nav .logo{
   float: left;
 }
 nav .logo img{
-  height:8vh;
+  height:10vh;
   transition: .5s;
   pointer-events:none;
 }
