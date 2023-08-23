@@ -27,7 +27,7 @@ nav .logo{
   float: left;
 }
 nav .logo img{
-  height:11vh;
+  height:8vh;
   transition: .5s;
   pointer-events:none;
 }
@@ -47,10 +47,10 @@ nav ul li a {
   text-decoration: none;
   text-transform: Uppercase;
   transition: 0.5s;
-  font-size: 2vh;
+  font-size: 1.6vh;
   font-family: "roboto", sans-serif;
   color: #1e1e1e;
-  padding: 1.2vh 2.3vh;
+  padding: 1vh 1vh;
 }
 
 ul li a:hover{
