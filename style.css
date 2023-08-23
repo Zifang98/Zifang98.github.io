@@ -7,10 +7,9 @@ head{
   min-height:100px;
 }
 body{
-  background-image: url("img/965119.jpg");
+  background-image: url("img/951061.jpg");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
+  background-size:contain;
 }
 nav {
   position: fixed;
@@ -57,7 +56,16 @@ nav ul li a {
 ul li a:hover{
   color:grey;
 }
-
+.openings h2{
+    font-family:'Merriweather', serif;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.openingstatus{
+  font-size: 2vh;
+  font-family:'Merriweather', serif;
+  margin-bottom: 5%;
+}
 .home h1{
   text-align:center;
   font-family:'Merriweather', serif;
