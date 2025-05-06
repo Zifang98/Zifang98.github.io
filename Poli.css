@@ -7,7 +7,10 @@ head{
   min-height:100px;
 }
 body{
-  background-color: #eee;
+  background-image: url("img/Background_flipped.png");
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 nav {
   position: fixed;
@@ -18,7 +21,7 @@ nav {
   padding: 1vh 1.2vh;
   box-sizing: border-box;
   transition: .5s;
-  background-color: white;
+  background-image: url("img/Background.png");
   z-index: 10000;
 }
 nav .logo{
@@ -45,21 +48,14 @@ nav ul li a {
   text-decoration: none;
   text-transform: Uppercase;
   transition: 0.5s;
+  font-size: 1.6vh;
   font-family: "roboto", sans-serif;
   color: #1e1e1e;
   padding: 1vh 1vh;
 }
-.links{
-  font-size: 1.6vh;
-}
+
 ul li a:hover{
   color:grey;
-}
-.background{
-  background: url("img/5946083.jpg");
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center;
 }
 .Policies{
   position: relative;
