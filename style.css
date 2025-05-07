@@ -3,9 +3,7 @@
   padding: 0;
 /* Colors: #00BDFF, #FF2400, #FFCE00*/ 
 }
-head{
-  min-height:150px;
-}
+
 body{
   background-image:url("img/Background_flipped.png");
   background-attachment: fixed;
@@ -60,7 +58,7 @@ ul li a:hover{
 
 .main_body{
   display:grid;
-  grid-template-columns:1;
+  grid-template-columns:1fr;
   margin-top: 10%;
 
 }
@@ -162,10 +160,12 @@ ul li a:hover{
 }
 .program_summary_h .program_summary{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,auto);
   grid-gap: 2.5%;
   padding: 2.5%;
   margin-top: 5%;
+  padding-bottom: 30%;
+  margin-bottom: 10%;
   background: rgb(253, 246, 227,0.4);
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 8px );
@@ -183,7 +183,10 @@ ul li a:hover{
   align-items: center;
   text-align: center;
 }
-
+.program_summary_h .Enrollment iframe{
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
 .program_summary_h .left_program_info h2{
   padding-bottom: 5%;
 }
@@ -251,12 +254,4 @@ ul li a:hover{
   width: 100%;
   height: 100%;
   display: block;
-}
-@media screen and (max-width: 600px){
-  .main_body .main_info .personal_info{
-    grid-template-rows: repeat(2,auto);
-  }
-  .program_summary_h .program_summary{
-    grid-template-rows: repeat(2,auto);
-  }
 }
